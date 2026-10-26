@@ -1,0 +1,12 @@
+{
+  "name": "feedneed-mern-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FeedNeed Full-Stack MERN Social Food-Sharing & NGO Campaign Platform",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm run dev"
+  }
+}
